@@ -17,6 +17,7 @@ public class GreetingController implements Controller
       if (userName != null)
       {
         result = "Hello Dear, " + userName + "! Excellent Day has begun" + "Add only to Dev branch";
+        System.out.println("test 123");
       }
 
       ModelAndView view = new ModelAndView("hello_view");
