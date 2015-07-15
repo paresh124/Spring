@@ -16,7 +16,7 @@ public class GreetingController implements Controller
       String result = "";
       if (userName != null)
       {
-        result = "Hello Dear, " + userName + "! Excellent Day has begun";
+        result = "Hello Dear, " + userName + "! Excellent Day has begun" + "Add only to Dev branch";
       }
 
       ModelAndView view = new ModelAndView("hello_view");
